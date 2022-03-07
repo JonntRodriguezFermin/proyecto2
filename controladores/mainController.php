@@ -10,6 +10,12 @@ class MainController {
 
 	}
 
+	public static function setCajeroTemplate() {
+
+		include 'vistas/plantillaCajero.php';
+
+	}
+
 	public static function routerController() {
 
 		if(isset($_GET['action'])){
